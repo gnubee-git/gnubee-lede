@@ -182,10 +182,13 @@ ramips_setup_interfaces()
 		ucidef_add_switch "switch0" \
 			"1:lan" "2:lan" "3:lan" "4:lan" "0:wan" "6@eth0"
 		;;
+<<<<<<< HEAD
 	dir-860l-b1)
 		ucidef_add_switch "switch0" \
 			"1:lan:4" "2:lan:3" "3:lan:2" "4:lan:1" "0:wan" "6@eth0"
 		;;
+=======
+>>>>>>> fe53c7d6bb4ef139e0630328b7c5648a71d3f5b5
 	gb-pc1)
 		ucidef_add_switch "switch0" \
 			"0:lan" "4:lan" "6@eth0"
