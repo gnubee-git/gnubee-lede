@@ -50,7 +50,6 @@
 			gpios = <&gpio0 8 GPIO_ACTIVE_LOW>;
 		};
 
-<<<<<<< HEAD
 		lan1 {
 			label = "gb-pc1:green:lan1";
 			gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
@@ -58,15 +57,6 @@
 
 		lan2 {
 			label = "gb-pc1:green:lan2";
-=======
-		lan {
-			label = "gb-pc1:green:lan";
-			gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
-		};
-
-		wan {
-			label = "gb-pc1:green:wan";
->>>>>>> fe53c7d6bb4ef139e0630328b7c5648a71d3f5b5
 			gpios = <&gpio0 25 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -123,11 +113,7 @@
 &pinctrl {
 	state_default: pinctrl0 {
 		gpio {
-<<<<<<< HEAD
 			ralink,group = "wdt", "rgmii2", "uart3";
-=======
-			ralink,group = "wdt", "rgmii2", "uart3", "ge2";
->>>>>>> fe53c7d6bb4ef139e0630328b7c5648a71d3f5b5
 			ralink,function = "gpio";
 		};
 	};

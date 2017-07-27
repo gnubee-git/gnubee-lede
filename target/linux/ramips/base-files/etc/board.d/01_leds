@@ -184,13 +184,8 @@ fonera20n)
 	set_wifi_led "$board:orange:wifi"
 	;;
 gb-pc1)
-<<<<<<< HEAD
 	ucidef_set_led_switch "lan1" "lan1" "$board:green:lan1" "switch0" "0x01"
 	ucidef_set_led_switch "lan2" "lan2" "$board:green:lan2" "switch0" "0x10"
-=======
-	ucidef_set_led_netdev "lan1" "lan1" "$board:green:lan1" "eth0.1"
-	ucidef_set_led_netdev "lan2" "lan2" "$board:green:lan2" "eth0.2"
->>>>>>> fe53c7d6bb4ef139e0630328b7c5648a71d3f5b5
 	;;
 gl-mt300a|\
 gl-mt300n|\
